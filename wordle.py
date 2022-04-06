@@ -11,6 +11,7 @@ words = f.readlines()
 words = [w.strip() for w in words] # обрезаем пробелы и переносы строки
 
 # выбираем случайное слово
+random.seed();
 i = random.randrange(len(words))
 word = words[i]
 
