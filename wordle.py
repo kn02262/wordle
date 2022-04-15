@@ -18,6 +18,7 @@ word = words[i]
 count = 6 # число попыток
 
 # игровое поле
+# New comment
 field = ["*****"] * count
 
 def print_field(field):
