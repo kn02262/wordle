@@ -14,7 +14,7 @@ words = [w.strip() for w in words] # обрезаем пробелы и пере
 # выбираем случайное слово
 random.seed();
 i = random.randrange(len(words))
-word = words[i]
+word = words[i];
 
 # число попыток
 count = int(sys.argv[1])
