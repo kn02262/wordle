@@ -15,7 +15,8 @@ random.seed();
 i = random.randrange(len(words))
 word = words[i]
 
-count = 6 # число попыток
+count = int( input("Input number of trials: ") );
+#count = 6 # число попыток
 
 # игровое поле
 # New comment
