@@ -61,5 +61,6 @@ while True:
     print_field(field)
     i += 1
     if i >= count:
-        print("Игра закончена! Слово: " + Fore.RED + word + Style.RESET_ALL)
+        #print("Игра закончена! Слово: " + Fore.RED + word + Style.RESET_ALL)
+        print("Игра закончена!")
         break
